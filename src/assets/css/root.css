@@ -1,0 +1,111 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"); */
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: var(--gray-200) !important;
+}
+
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+::-webkit-scrollbar {
+    /* width of the entire scrollbar */
+    width: 4px;
+    /* height of the entire scrollbar */
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    /* color of the tracking area */
+    background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+    /* color of the scroll thumb */
+    background-color: var(--dark-400);
+    /* roundness of the scroll thumb */
+    border-radius: 20px;
+    /* creates padding around scroll thumb */
+    border: 3px solid var(--dark-400);
+}
+
+:root {
+    /* Primary Font Type */
+    --primary-font: 'Poppins', sans-serif;
+
+    /* Primary Theme  */
+    --primary: #333D91;
+
+     /* Gray Theme  */
+     --white: #fff;
+     --gray-100: #fffcf8;
+     --gray-200: #efefef;
+     --gray-300: #e8e8e8;
+     --gray-400: #e0e0e0;
+
+      /* Error/Danger Theme  */
+    --error-50: #FCE7E8;
+    --error-100: #F7CED0;
+    --error-200: #EF9CA1;
+    --error-300: #E86B71;
+    --error-400: #E03942;
+    --error-500: #D80813;
+    --error-600: #A2060E;
+    --error-700: #6C040A;
+    --error-800: #360205;
+    --error-900: #160102;
+
+     /* Black Theme  */
+     --dark-100: #1e1e1e;
+     --dark-200: #111111;
+     --dark-300: #0a0a0a;
+     --dark-400: #000000;
+
+    /* Elevations  */
+    --elevation-10: 0px 2px 2px #D9D9D9;
+    --elevation-1: 0px 1px 2px rgba(64, 141, 251, 0.05), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    --elevation-2: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15) ;
+    --elevation-3:0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3) ;
+    --elevation-4: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px rgba(0, 0, 0, 0.3);
+    --elevation-5:0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3) ;
+
+    --spacer: 30px;
+    --curve: 10;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+
+/* N Progress  */
+#nprogress .bar {
+    height: 5px;
+    background: var(--primary-color);
+}
+
+#nprogress .spinner-icon {
+    /* border-top-color: var(--primary-color);
+    border-left-color: var(--primary-color);
+    width: 30px;
+    height: 30px; */
+    display: none;
+}
+
+#nprogress .peg {
+    /* display: none; */
+    box-shadow: 0 0 10px var(--primary-color), 0 0 5px var(--dark-300);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
